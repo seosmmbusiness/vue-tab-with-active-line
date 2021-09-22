@@ -115,7 +115,7 @@ export default {
   @apply relative m-auto;
 
   &__item {
-    @apply inline-block pb-2 px-3 text-mainFontColor border-0 border-b-2 border-transparent bg-transparent cursor-pointer transition-all no-underline text-xs xl:text-sm uppercase tracking-wide font-semibold;
+    @apply inline-block pb-2 px-3 text-black border-0 border-b-2 border-transparent bg-transparent cursor-pointer transition-all no-underline;
 
     &_active {
       @apply text-white;
@@ -134,7 +134,7 @@ export default {
     }
   }
   &__active-line {
-    @apply absolute bottom-0 left-0 h-0.5 bg-redlight;
+    @apply absolute bottom-0 left-0 h-0.5 bg-red;
 
     transition: transform 0.4s ease, width 0.4s ease;
   }
